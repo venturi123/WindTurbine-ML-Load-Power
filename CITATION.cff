@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Wang"
+    given-names: "Qiulei"
+  - family-names: "Hu"
+    given-names: "Junjie"
+  - family-names: "Yang"
+    given-names: "Shanghui"
+  - family-names: "Dong"
+    given-names: "Zhikun"
+  - family-names: "Deng"
+    given-names: "Xiaowei"
+  - family-names: "Xu"
+    given-names: "Yixiang"
+title: "Towards machine learning applications for structural load and power assessment of wind turbine: An engineering perspective"
+journal: "Energy Conversion and Management"
+volume: "324"
+doi: "10.1016/j.enconman.2024.119275"
+date-released: 2025
+url: "https://www.sciencedirect.com/science/article/pii/S0196890424012160"
+pages: "119275"
+abstract: "Over the past decades, the increasing energy demand has accelerated the construction of wind farms, raising higher expectations for precise load and power assessments in wind turbine performance. Traditional methods, which rely on analytical wake models and performance curves, often fail to adapt to complex inflow scenarios, leading to significant inaccuracies in predicting turbine loads and power output. This research addresses these challenges by introducing a novel two-phase framework for various phases of wind farm planning and development, using the NREL 5MW baseline wind turbine as a case study. The first part involves deriving recommended values for simplified thrust modulation factors at the preliminary design phase, enabling swift evaluation of maximum and fatigue thrust loads crucial for wind farm optimization. The second part focuses on designing and training a machine learning model at the detailed design phase. A gradient-boosting-based framework based on LightGBM provides comprehensive methods for assessing wind turbine load and power, enhancing the precision and efficiency of these assessments. The proposed model achieves significant improvements in predictive accuracy, achieving mean R-Squared of 0.995, 0.988, and 0.995 for power, peak load, and damage equivalent load evaluation, respectively. The framework streamlines the assessment process, enhancing both the accuracy and speed of power and load evaluations for wind farm design. This is expected to reduce computational costs and improve the effectiveness of downstream tasks, such as layout optimization and wake steering."
+keywords:
+  - Wind turbine
+  - Dynamic wake meandering model (DWM)
+  - Fatigue analysis
+  - Machine learning
+type: article
+issn: "0196-8904"
